@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    color: #6a6f79;
+    height: 100%;
+    background-size: auto 100%;
+    margin: 0;
+    background: url("../images/3.jpg");
+    font-family: 'Microsoft Yahei', 'Segoe UI', arial, helvetica, sans-serif;
+    font-size: 14px;
+    background-repeat: repeat !important;
+}
+
+body ul {
+    list-style: none;
+}
+
+.set-container {
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.set {
+    display: none;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    overflow: hidden;
+    background: #F0F0F0;
+    z-index: 999999;
+}
+
+.set div {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.set img {
+    width: 50px;
+    height: 30px;
+    margin: 5px;
+}
+
+.set span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: 0;
+    background: #ccc;
+    position: absolute;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.set li {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    float: left;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+.search {
+    width: 500px;
+    height: 40px;
+    margin: 50px auto;
+}
+
+.search input {
+    float: left;
+}
+
+.search .input {
+    width: 350px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.search .btn {
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    background: #6FB3FF;
+    color: #ffffff;
+    text-align: center;
+    /*border: 1px solid #ffffff;*/
+    margin-left: 5px;
+}
+
+.wrapper {
+    top: 60px;
+    margin-left: 80px;
+    text-align: center;
+    height: auto;
+    position: absolute;
+}
+
+.wrapper #ul1 {
+    position: relative;
+}
+
+.wrapper #ul1 .active {
+    border: 1px dashed red;
+}
+
+.wrapper li {
+    opacity: 0.8;
+    z-index: 1;
+    float: left;
+    width: 278px;
+    height: 162px;
+    margin: 10px;
+}
+
+.wrapper .temp {
+    border: 1px solid aqua;
+    border-radius: 2px;
+    position: relative;
+    width: 278px;
+    height: 162px;
+}
+
+.wrapper .temp span {
+    width: 278px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    z-index: 99999;
+    background: #000000;
+    left: 0;
+    opacity: .6;
+    line-height: 30px;
+    display: none;
+    cursor: pointer;
+}
